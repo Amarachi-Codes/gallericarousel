@@ -54,6 +54,9 @@
     transition: 0.2s ease-in-out;
 
 }
+.show{
+    transform: translateX(0);
+}
 @media screen and (max-width:912px) {
     .icon{
         display: block;
