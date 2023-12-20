@@ -48,7 +48,7 @@
     margin-top: 58px;
     padding: 40px 20px;
     text-align: center;
-    color: white;
+    background-color: white;
     border: 1px solid gainsboro;
     transform: translateX(-100vw);
     transition: 0.2s ease-in-out;
@@ -56,6 +56,16 @@
 }
 .show{
     transform: translateX(0);
+}
+.carousel{
+    padding: 30px 30px;
+    width: 100vw;
+    height: 100vh;
+}
+.carousel .carouselImg img{
+width: 100vw;
+height: 80vh;
+object-fit: contain;
 }
 @media screen and (max-width:912px) {
     .icon{
