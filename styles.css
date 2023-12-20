@@ -64,5 +64,8 @@
     .navbar ul{
         display:none;
     }
+    .sidebar{
+        display: block;
+    }
     
 }
