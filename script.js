@@ -18,7 +18,7 @@ images[0]="img/portrait-young-girl-with-roller-blades.jpg"
 images[1]="img/smiley-business-woman-front-view.jpg"
 images[2]= "img/jjip_jm6e_230421.jpg"
 images[3]="img/close-up-cute-child-portrait.jpg"
-images[4]="img/8666599.jpg"
+images[4]="img/edited pretty girl.png"
 console.log(images);
 const left = document.querySelector(".fa-angle-left")
 const right = document.querySelector(".fa-angle-right")

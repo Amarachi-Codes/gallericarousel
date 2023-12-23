@@ -33,7 +33,7 @@
 .sidebar li{
     list-style: none;
     padding-top: 20px;
-    padding-bottom: 2opx;
+    padding-bottom: 20px;
 }
 .sidebar li a{
     text-decoration: none;
@@ -61,10 +61,10 @@
 }
 .carousel{
     width: 100vw;
-    height: 60vh;
+    height: 100vh;
 }
 .carouselImg{
-    padding: 10px 30px;
+    padding: 0px 30px;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -73,7 +73,8 @@
 }
 .carousel .carouselImg img{
 width: 100%;
-height: 90vh;
+height: 90%;
+max-width: 1400px;
 object-fit: cover;
 
 }
@@ -102,6 +103,9 @@ border-radius: 50%;
     }
     .sidebar{
         display: block;
+    }
+    .carousel .carouselImg img{
+        width: 90%;
     }
     
 }
